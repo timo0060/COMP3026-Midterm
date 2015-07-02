@@ -5,7 +5,7 @@
 }
 <br/>
 
-<div class="panel panel-primary">
+<div class="panel panel-primary box-shadow">
     <div class="panel-heading">
         <h3>Index</h3>
     </div>
@@ -44,7 +44,7 @@
                             @Html.DisplayFor(modelItem => item.CourseDescription)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.CourseCost)
+                            $@Html.DisplayFor(modelItem => item.CourseCost)
                         </td>
                         <td>
                             @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
